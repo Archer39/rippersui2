@@ -1,0 +1,109 @@
+:root{
+  --accent-color: #396dd1;
+  --blur-filter-low: saturate(150%) blur(50px);
+  --blur-filter-med: saturate(150%) blur(50px);
+  --blur-filter-high: saturate(150%) blur(150px);
+  --text-color: #1e1e1e;
+  --text-heading: white;
+  --blur-background-high: #ffffffa8;
+  --blur-background-med: #ffffffa8;
+  --blur-background-low: #ffffffa8;
+  --blur-background-thick: #bdbdbdf0;
+  --blur-foreground: #212121a3;
+  --blur-foreground-bright: #171717de;
+  --background-opposite: #171717de;
+  --icon-invert: invert(1);
+  --drop-shadow: 0 0 9px #0000006e;
+  --barely-visible: #0000004a;
+  --control-tools-fix: -5px;
+}
+
+/* Mouse over */
+a:hover {
+    text-shadow: 0 0 0px #FF0000;
+}
+/* Sidebar */
+
+#sidebar {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: fixed;
+    right: 2px;
+    top: 2px;
+    width: 360px;
+    height: 99vh;
+    overflow: hidden;
+    margin: 0;
+    border: 30px solid transparent;
+    border-image-source: url(/modules/rippers-ui/ui/img/rippersframe.webp);
+    border-image-slice: 40 fill;
+    background-position: center !important;
+    background-size: 300px 100%!important;
+    background-repeat: no-repeat;
+}
+
+.collapse::before{
+    content: "";
+}
+
+#sidebar.collapsed {
+    width: 37px !important;
+    height: 349px !important;
+    padding-left: 4px;
+    border: 0px solid transparent;
+    border-image-source: url(/modules/rippers-ui/ui/img/rippersframe.webp);
+    border-image-slice: 40 fill;
+    background: none !important;
+}
+#sidebar-tabs{
+    text-align: center;
+    border-bottom: 1px solid #FF0000;
+    box-shadow: 0 0 0px #FF0000;
+    height: 32px;
+    background: #000000;
+}
+#sidebar #sidebar-tabs > .item {
+    line-height: 0px;
+}
+
+i.fa-caret-right::before{
+    content: "";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion */
+
+/* #region Chat Tab*/
+.message{
+    background-image: url(/modules/rippers-ui/ui/img/chatcard.webp) !important;
+}
+.window-app {
+  border: 20px solid transparent;
+  border-image-source: url(/modules/rippers-ui/ui/img/gothicborder.webp);
+  border-image-slice: 20 fill;
+  border-image-repeat: repeat;
+}
+
+.roll-type-select{
+    color: white !important;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#chat-controls .control-buttons{
+    color: white;
+}
+
+

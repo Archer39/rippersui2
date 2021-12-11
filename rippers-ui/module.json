@@ -1,0 +1,19 @@
+{
+  "name": "rippers-ui",
+  "title": "Rippers UI",
+  "description": "A Victorian Horror flavored UI for Foundry VTT.",
+  "version": "0.0.1",
+  "author": "DocArcane",
+  "scripts": [ "./rippers-ui.js" ],
+  "styles": [ "./rippers-ui.css" ],
+  "esmodules": [],
+  "packs": [],
+  "url": "https://gitlab.com/arcanetimes/rippers-ui",
+  "manifest": "https://gitlab.com/arcanetimes/rippers-ui/-/raw/latest/module.json",
+  "download": "https://gitlab.com/arcanetimes/rippers-ui/-/jobs/artifacts/0.0.1/raw/rippers-ui-0.0.1.zip?job=Package",
+  "bugs": "https://gitlab.com/arcanetimes/rippers-ui/-/issues",
+  "changelog": "https://gitlab.com/arcanetimes/rippers-ui/-/releases",
+  "readme": "https://gitlab.com/arcanetimes/rippers-ui/-/blob/master/readme.md",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.7.10"
+}
